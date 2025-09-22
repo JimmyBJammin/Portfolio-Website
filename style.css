@@ -12,6 +12,8 @@
   /* navbar (dark bar) */
   --accent: #8B0000;
   /* links & primary buttons */
+  --hero: #5C0002;
+  /* jumbotron/hero bg */
 }
 
 /* =============================
@@ -25,8 +27,6 @@
   /* text on dark navbar */
   --border: #E6D6FF;
   /* soft borders */
-  --hero: #5C0002;
-  /* jumbotron/hero bg */
 }
 
 /* ====== Page ====== */
