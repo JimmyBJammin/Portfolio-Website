@@ -14,6 +14,7 @@
   /* links & primary buttons */
   --hero: #5C0002;
   /* jumbotron/hero bg */
+  --link: #F4F0E0
 }
 
 /* =============================
@@ -90,7 +91,7 @@ body {
 
 /* ====== Links & Buttons ====== */
 a {
-  color: var(--accent);
+  color: var(--link);
   text-decoration: underline;
   text-underline-offset: 2px;
 }
