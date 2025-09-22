@@ -11,10 +11,11 @@
   --nav: #4A0000;
   /* navbar (dark bar) */
   --accent: #8B0000;
-  /* links & primary buttons */
+  /* primary buttons */
   --hero: #5C0002;
   /* jumbotron/hero bg */
   --link: #F4F0E0
+  /* links */
 }
 
 /* =============================
@@ -98,7 +99,7 @@ a {
 
 a:hover,
 a:focus {
-  color: var(--accent-hover);
+  color: var(--link-hover);
 }
 
 /* Make anchor-buttons look like buttons, not links */
