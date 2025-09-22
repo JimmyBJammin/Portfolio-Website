@@ -2,15 +2,15 @@
    LIGHT THEME — EDIT THESE 5
    ============================= */
 :root {
-  --bg: #EFDDFD;
+  --bg: #000000;
   /* page background */
-  --text: #210934;
+  --text: #E0E0E0;
   /* main text */
-  --surface: #F6EAFF;
+  --surface: #5C0002;
   /* cards, boxes, list items */
-  --nav: #36065B;
+  --nav: #4A0000;
   /* navbar (dark bar) */
-  --accent: #7C3AED;
+  --accent: #8B0000;
   /* links & primary buttons */
 }
 
@@ -25,7 +25,7 @@
   /* text on dark navbar */
   --border: #E6D6FF;
   /* soft borders */
-  --hero: #F1E8FF;
+  --hero: #5C0002;
   /* jumbotron/hero bg */
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 .site-nav .navbar-toggler {
-  border-color: rgba(255, 255, 255, .35);
+  border-color: rgba(0, 0, 0, .35);
 }
 
 .site-nav .navbar-toggler-icon {
@@ -63,6 +63,8 @@ body {
 .bg-body-tertiary {
   background-color: var(--hero) !important;
   color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: .5rem;
 }
 
 /* ====== Cards & Boxes (light surfaces) ====== */
