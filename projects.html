@@ -26,35 +26,49 @@
             This paragraph uses the page text color. Here’s a <a href="#">content link</a>.
         </p>
 
-        <!-- Hero -->
-        <section class="p-5 mb-4 bg-body-tertiary rounded-3">
-            <h2 class="display-6 mb-3">Hero Section</h2>
-            <a class="btn btn-primary" href="#">Get Started</a>
-        </section>
+        <div id="accordion">
 
-        <!-- Box -->
-        <div class="box mb-4">
-            <h3 class="h5">Plain Box</h3>
-            <p class="mb-0">This is a plain div styled as a surface. <a href="#">Read more</a></p>
-        </div>
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn btn-primary" data-bs-toggle="collapse" href="#collapseOne">
+        Collapsible Group Item #1
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum..
+      </div>
+    </div>
+  </div>
 
-        <!-- Card -->
-        <div class="card shadow-sm mb-4" style="max-width: 40rem;">
-            <div class="card-body">
-                <h4 class="card-title h5">Card Title</h4>
-                <p class="card-text">Cards pick up the surface/background and text from the theme.</p>
-                <a class="btn btn-primary" href="#">Card Action</a>
-            </div>
-        </div>
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn btn-primary" data-bs-toggle="collapse" href="#collapseTwo">
+        Collapsible Group Item #2
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum..
+      </div>
+    </div>
+  </div>
 
-        <!-- List group -->
-        <ul class="list-group" style="max-width: 28rem;">
-            <li class="list-group-item">First item</li>
-            <li class="list-group-item">Second item</li>
-            <li class="list-group-item">Third item</li>
-        </ul>
-    </main>
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn btn-primary" data-bs-toggle="collapse" href="#collapseThree">
+        Collapsible Group Item #3
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum..
+      </div>
+    </div>
+  </div>
 
+</div>
+</main>
 
 
 
